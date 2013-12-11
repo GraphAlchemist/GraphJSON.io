@@ -1,0 +1,13 @@
+<div class="navbar navbar-default navbar-fixed-top custom-navbar" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand custom-navbar" href="#">GraphJSON.io</a>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a ng-class="{active :panelDisplay('export')}" ng-click="panelToggle('export')">export</a></li>
+      <li><a ng-class="{active :panelDisplay('share')}" ng-click="panelToggle('share')">share</a></li>
+      <li><a ng-class="{active :panelDisplay('human')}" ng-click="panelToggle('human')">human</a></li>
+      <li><a ng-class="{active :panelDisplay('machine')}" ng-click="panelToggle('machine')">machine</a></li>
+    </ul>
+  </div>
+</div>

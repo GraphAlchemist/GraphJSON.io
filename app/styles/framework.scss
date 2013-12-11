@@ -1,0 +1,77 @@
+$bgDefault      : rgba(0, 0, 0, 0.08);
+$brdrDefault    : #FFD600;
+$colDefault     : #424242;
+$colHover       : yellow;
+$bgHighlight    : yellow;
+
+$colActive      : pink;
+$bgActive       : #424242;
+
+.navbar-default {
+    background-color: $bgDefault;
+    border-color: $brdrDefault;
+    .navbar-header {
+        margin-left: 7.5%;
+    }
+    .navbar-collapse { 
+        margin-right: 15%;
+        .navbar-nav {
+            
+            li {
+                a {
+                    color: $colDefault;
+                    &:hover, &:focus {
+                        color: $colHover;   
+                        background-color: $bgActive;}
+                    &.active {
+                        color: $colHover;
+                        background-color: $bgActive;} 
+                    }
+            }
+        }
+    }
+}
+
+.panels {
+    position: fixed;
+    right: 0px;
+    border: 2px solid;
+    border-color: red;
+    margin-top: 30px;
+    width: 40%;
+    height: 100%;
+
+    .machine {
+        background-color: $bgDefault;
+        border-color: $brdrDefault;
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .human {
+        background-color: white;
+        border-color: blue;
+        border: 2px dashed;
+        margin: 15px;
+        height: 200px;
+        padding: 10px;
+    }
+    
+    .export {
+        background-color: white;
+        border-color: green;
+        border: 2px solid;
+        margin: 15px;
+        padding: 10px;
+        height: 200px;
+    }
+
+    .share {
+        background-color: white;
+        border-color: orange;
+        border: 2px solid;
+        margin: 15px;
+        padding: 10px;
+        height: 200px;
+    }
+}

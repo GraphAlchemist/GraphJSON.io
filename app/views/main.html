@@ -1,0 +1,21 @@
+<ng-include src="'views/partials/nav.html'"></ng-include>
+<div class="panels">
+
+  <div class="export" ng-show="panelDisplay('export')">
+  </div>
+  
+  <div class="share" ng-show="panelDisplay('share')">
+  </div>
+
+  <div class="human" ng-show="panelDisplay('human')">
+  </div>
+
+  <div ng-controller="MachineCtrl" class="machine" ng-show="panelDisplay('machine')"> 
+    <div ui-codemirror="editorOptions"></div>
+  </div>
+</div>
+
+<div class="graph_container">
+    <div ng-controller="GraphCtrl" class="graph">
+    </div>
+</div>
