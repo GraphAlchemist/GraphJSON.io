@@ -6,22 +6,22 @@ Graph visualization editor and generator for the GraphJSON format.
 #### Quick Start
 
 ##### If you have yeoman:
-`git clone <this repo>`
-`cd <this repo>`
+`git clone <this repo>`    
+`cd <this repo>`    
 
-install node modules
+install node modules    
 `npm install`
 
-install bower packages
+install bower packages    
 `bower install`
 
-run server
+run server    
 `grunt serve`
 
 ##### If you dont have yeoman:
-`npm install -g yo`
+`npm install -g yo`    
 then,
-steps listed above.
+steps listed above.    
 
 
 Stuff we are using:
