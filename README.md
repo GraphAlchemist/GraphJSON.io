@@ -24,7 +24,7 @@ then,
 steps listed above.    
 
 
-Stuff we are using:
+#### Stuff we are using:
 * Big picture:
     * yeoman.io
 
