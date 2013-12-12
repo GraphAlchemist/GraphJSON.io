@@ -1,7 +1,7 @@
 'use strict'
 
 angular.module('graphJsonioApp')
-  .controller 'MachineCtrl', ($scope) ->
+  .controller 'MachineCtrl', ($scope, Node) ->
     $scope.awesomeThings = [
       'HTML5 Boilerplate'
       'AngularJS'
@@ -12,5 +12,5 @@ angular.module('graphJsonioApp')
         lineWrapping : true
         lineNumbers: true
         mode: 'json'
-        value: 'Your GraphJSON goes here!'
+        value: Node.graphjson
 

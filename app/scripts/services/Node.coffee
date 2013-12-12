@@ -6,11 +6,10 @@ angular.module('graphJsonioApp')
     # ...
     Node = {} 
     Node.meaningOfLife = 42
-
+    Node.graphjson = "test"
     # Public API here
     {
+      graphjson: Node.graphjson
       someMethod: () ->
         meaningOfLife
     }
-
-    Node
