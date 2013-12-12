@@ -10,6 +10,9 @@ Fork this repo.
 `git clone <your fork of this repo>`    
 `cd <your local forked repo>`    
 
+[install compass](http://compass-style.org/install/)
+
+
 install node modules    
 `npm install`
 
