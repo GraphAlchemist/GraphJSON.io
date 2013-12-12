@@ -6,8 +6,9 @@ Graph visualization editor and generator for the GraphJSON format.
 #### Quick Start
 
 ##### If you have yeoman:
-`git clone <this repo>`    
-`cd <this repo>`    
+Fork this repo.
+`git clone <your fork of this repo>`    
+`cd <your local forked repo>`    
 
 install node modules    
 `npm install`
@@ -33,4 +34,15 @@ steps listed above.
     * [Angular Module](https://github.com/angular-ui/ui-codemirror) for [Codemirror](http://codemirror.net/)
     * [Angular Local Storage Module](https://github.com/grevory/angular-local-storage)
     * [GraphJSON format](https://github.com/GraphAlchemist/GraphJSON)
-        
+    
+#### Contributing 
+(TODO: Create more robust contributing documentation)
+1. Fork this repo
+1. `cd <your local fork>`
+1. `git checkout -b my-awesome-feature`
+1. Hack away.
+1. Run tests that don't exist yet.
+1. Fill out ["Contributor License Agreement"](https://docs.google.com/a/graphalchemist.com/forms/d/1xK8NWy86VXvrh8bRTe-HL964Q-bUn-nxcR6ZQJ5L_J0/viewform)
+1. Make a pull request.
+1. We merge your pull request.
+1. You are listed as an 'author' (for features, largish improvements, etc.) or as a 'contributor' (for bugs, etc.)
