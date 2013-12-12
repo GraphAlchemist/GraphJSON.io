@@ -37,8 +37,8 @@ steps listed above.
     
 #### Contributing 
 (TODO: Create more robust contributing documentation)
-1. Fork this repo
-1. `cd <your local fork>`
+1. Fork this repo 
+1. `cd <your local fork>` 
 1. `git checkout -b my-awesome-feature`
 1. Hack away.
 1. Run tests that don't exist yet.
