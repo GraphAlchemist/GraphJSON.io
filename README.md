@@ -3,23 +3,23 @@ GraphJSON.io
 
 Graph visualization editor and generator for the GraphJSON format.
 
-#### Quick Start
+### Quick Start
 
 ##### If you have yeoman:
-Fork this repo.    
+1. Fork this repo.    
 `git clone <your fork of this repo>`    
 `cd <your local forked repo>`    
 
-[install compass](http://compass-style.org/install/)
+2. [install compass](http://compass-style.org/install/) - used to compile scss
 
 
-install node modules    
+3. install node modules    
 `npm install`
 
-install bower packages    
+4. install bower packages    
 `bower install`
 
-run server    
+5. run server    
 `grunt serve`
 
 ##### If you dont have yeoman:
@@ -28,7 +28,7 @@ then,
 steps listed above.    
 
 
-#### Stuff we are using:
+### Stuff we are using:
 * Big picture:
     * yeoman.io
 
@@ -38,7 +38,7 @@ steps listed above.
     * [Angular Local Storage Module](https://github.com/grevory/angular-local-storage)
     * [GraphJSON format](https://github.com/GraphAlchemist/GraphJSON)
     
-#### Contributing 
+### Contributing 
 (TODO: Create more robust contributing documentation)    
 1. Fork this repo    
 2. `cd <your local fork>`     
