@@ -8,9 +8,10 @@ angular.module('graphJsonioApp')
       'Karma'
     ]
 
+    $scope.node = Node
+
     $scope.editorOptions =
         lineWrapping : true
         lineNumbers: true
         mode: 'json'
-        value: Node.graphjson
 
