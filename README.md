@@ -5,13 +5,18 @@ Graph visualization editor and generator for the GraphJSON format.
 
 ### Quick Start
 
+##### If you dont have yeoman:
+`npm install -g yo`    
+then,
+
 ##### If you have yeoman:
-1. Fork this repo.    
+1. Fork this repo.
+then,
 `git clone <your fork of this repo>`    
 `cd <your local forked repo>`    
 
 2. [install compass](http://compass-style.org/install/) - used to compile scss
-
+`gem install compass`
 
 3. install node modules    
 `npm install`
@@ -22,13 +27,7 @@ Graph visualization editor and generator for the GraphJSON format.
 5. run server    
 `grunt serve`
 
-##### If you dont have yeoman:
-`npm install -g yo`    
-then,
-steps listed above.    
-
-
-### Stuff we are using:
+### What we are using:
 * Big picture:
     * yeoman.io
 
