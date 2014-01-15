@@ -10,8 +10,7 @@ Graph visualization editor and generator for the GraphJSON format.
 then,
 
 ##### If you have yeoman:
-1. Fork this repo.
-then,
+1. Fork this repo. Then,    
 `git clone <your fork of this repo>`    
 `cd <your local forked repo>`    
 
